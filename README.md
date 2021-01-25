@@ -31,10 +31,30 @@ Split training and testing data. Use 'review_scores_rating' as y, the rest feath
 
 ## Evaluate the Results
 
-
+ ### most polular size for the host place
 ![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/Seattle_beds.png "Seattle Airbnb beds")![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/Boston_beds.png)
 
-Up one: Seattle beds histogram Down: Boston beds histogram
+Up one: Seattle beds histogram Down one: Boston beds histogram
+
+The number of beds here is used to study the size of people like booking. The common size of a place with beds is around 1 or 2. The average number of beds the host provided is 1.6 in Boston, and 1.7 in Seattle. 
+
+ ### most polular price for the host place
+![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/seattle_price.png "Seattle Airbnb beds")![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/boston_price.png)
+
+Up one: Seattle price histogram Down one: Boston price histogram
+
+From the histogram from Boston and Seattle, it seems that the most popular price is around $100. And the average price in Boston is $198, and $138 in Seattle. 
+
+
+### feathers affect the review score rating
+
+![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/cor.png)
+
+Boston Airbnb correlation map
+
+The plot above only show the numerical feathers to affect the rating score. The feather with larger absolute value means it affects the review score more. From the image above, we can see that the happiness of your guest does not depend on the size of your room, it depends on the cleanliness, the accuracy of your description, the checkin, the way you communication, and the location.
+
+![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/seattle_feather.png "Seattle Airbnb beds")![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/boston_feather.png)
 
 ## Summary the Results
 
@@ -58,7 +78,9 @@ In Archive.zip, boston.csv is the data of Airbnb price and data in Boston. seatt
 list_boston.csv is the feathers of airbnb in Boston. list_seattle.csv is the feathers of airbnb in Seattle. 
 
 The code price1.ipynb is to calculate the price histogram and the beds histogram in Boston and seattle.
+
 The code correlation.ipynb is to calculate the correlation of feathers.
+
 The code top10feather.ipynb is aim to test the top 10 feather affect the review score.
 
 ## python library
