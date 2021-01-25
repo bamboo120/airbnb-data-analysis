@@ -7,7 +7,7 @@
 
 2: Based on the data, what is the most popular price?
 
-3: What feathers affect the review score rating?
+3: What features affect the review score rating?
 
 ## Data Understanding
 
@@ -15,7 +15,7 @@
 
 2: We can check the histogram and the mean value of price.
 
-3: I pick some related feathers affected the review score rating below: 'cancellation_policy','guests_included','host_response_time','host_response_rate','host_acceptance_rate','host_has_profile_pic','host_identity_verified','room_type','accommodates','bathrooms','bedrooms','beds','bed_type','price','number_of_reviews','review_scores_rating','instant_bookable','reviews_per_month','review_scores_value','review_scores_location','review_scores_communication','review_scores_checkin','review_scores_cleanliness','review_scores_accuracy'
+3: I pick some related features affected the review score rating below: 'cancellation_policy','guests_included','host_response_time','host_response_rate','host_acceptance_rate','host_has_profile_pic','host_identity_verified','room_type','accommodates','bathrooms','bedrooms','beds','bed_type','price','number_of_reviews','review_scores_rating','instant_bookable','reviews_per_month','review_scores_value','review_scores_location','review_scores_communication','review_scores_checkin','review_scores_cleanliness','review_scores_accuracy'
 
 ## Prepare Data
 
@@ -27,7 +27,7 @@
 
 ## Data Modeling
 
-Split training and testing data. Use 'review_scores_rating' as y, the rest feathers as X. Apply linear regression to learn the data.
+Split training and testing data. Use 'review_scores_rating' as y, the rest features as X. Apply linear regression to learn the data.
 
 ## Evaluate the Results
 
@@ -46,13 +46,13 @@ Up one: Seattle price histogram Down one: Boston price histogram
 From the histogram from Boston and Seattle, it seems that the most popular price is around $100. And the average price in Boston is $198, and $138 in Seattle. 
 
 
-### feathers affect the review score rating
+### features affect the review score rating
 
 ![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/cor.png)
 
 Boston Airbnb correlation map
 
-The plot above only show the numerical feathers to affect the rating score. The feather with larger absolute value means it affects the review score more. From the image above, we can see that the happiness of your guest does not depend on the size of your room, it depends on the cleanliness, the accuracy of your description, the checkin, the way you communication, and the location.
+The plot above only show the numerical feathers to affect the rating score. The features with larger absolute value means it affects the review score more. From the image above, we can see that the happiness of your guest does not depend on the size of your room, it depends on the cleanliness, the accuracy of your description, the checkin, the way you communication, and the location.
 
 ![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/seattle_feather.png "Seattle Airbnb beds")![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/boston_feather.png)
 
@@ -62,7 +62,7 @@ The plot above only show the numerical feathers to affect the rating score. The 
 
 2: The popular price is around $100
 
-3: The top feathers affects the review score rating are:
+3: The top features affects the review score rating are:
 
 - Keep your place clean
 - describe your place accurate
@@ -81,7 +81,7 @@ The code price1.ipynb is to calculate the price histogram and the beds histogram
 
 The code correlation.ipynb is to calculate the correlation of feathers.
 
-The code top10feather.ipynb is aim to test the top 10 feather affect the review score.
+The code top10feather.ipynb is aim to test the top 10 features affect the review score.
 
 ## python library
 
