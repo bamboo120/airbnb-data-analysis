@@ -31,6 +31,11 @@ Split training and testing data. Use 'review_scores_rating' as y, the rest feath
 
 ## Evaluate the Results
 
+
+![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/Seattle_beds.png "Seattle Airbnb beds")![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/Boston_beds.png)
+
+Up one: Seattle beds histogram Down: Boston beds histogram
+
 ## Summary the Results
 
 1: The popular size are 1-2 beds for host
