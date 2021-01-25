@@ -56,4 +56,4 @@ seaborn
 
 ## acknowledgments
 
-This is Udacity data science nano degree project. 
+This is Udacity data science nano degree project. The data is from kaggle [Boston Pages](https://www.kaggle.com/airbnb/seattle/data) [Seattle Pages](https://www.kaggle.com/airbnb/boston)
