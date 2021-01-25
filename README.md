@@ -31,7 +31,21 @@ Split training and testing data. Use 'review_scores_rating' as y, the rest feath
 
 ## Evaluate the Results
 
+## Summary the Results
 
+1: The popular size are 1-2 beds for host
+
+2: The popular price is around $100
+
+3: The top feathers affects the review score rating are:
+
+- Keep your place clean
+- describe your place accurate
+- communication, response in time
+- make yourself look reliable, like providing a nice host picture
+- easy check-in
+- nice bed
+- good location
 
 ## File description: 
 All the data is in Archive.zip
