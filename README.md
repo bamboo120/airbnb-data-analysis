@@ -56,6 +56,18 @@ The plot above only show the numerical feathers to affect the rating score. The 
 
 ![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/seattle_feather.png "Seattle Airbnb beds")![alt text](https://github.com/bamboo120/airbnb-data-analysis/blob/main/boston_feather.png)
 
+Up one: Top 10 Seattle features Down one: Top 10 Boston features 
+
+The top features affects the review score rating are:
+
+- Keep your place clean
+- describe your place accurate
+- communication, response in time
+- make yourself look reliable, like providing a nice host picture
+- easy check-in
+- nice bed
+- good location
+
 ## Summary the Results
 
 1: The popular size are 1-2 beds for host
