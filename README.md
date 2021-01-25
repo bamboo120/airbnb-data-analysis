@@ -40,3 +40,19 @@ list_boston.csv is the feathers of airbnb in Boston. list_seattle.csv is the fea
 The code price1.ipynb is to calculate the price histogram and the beds histogram in Boston and seattle.
 The code correlation.ipynb is to calculate the correlation of feathers.
 The code top10feather.ipynb is aim to test the top 10 feather affect the review score.
+
+python library
+
+numpy
+
+pandas
+
+matplotlib.pyplot
+
+sklearn
+
+seaborn
+
+acknowledgments
+
+This is Udacity data science nano degree project. 
